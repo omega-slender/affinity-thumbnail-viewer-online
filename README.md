@@ -1,0 +1,1 @@
+# affinity-thumbnail-viewer

@@ -1,6 +1,4 @@
 # Affinity Thumbnail Viewer 🖼️
-
-## Description
 **Affinity Thumbnail Viewer** is an intuitive and efficient tool designed by **Omega Slender**, enabling users to process '.afphoto' and '.afdesign' files to view their thumbnails and download them as .png files easily and quickly. This project is inspired by the Python code created by **v_kyr** and uses modern web technologies such as HTML, CSS, and JavaScript to provide a smooth and accessible user experience.
 
 ## Features ✨

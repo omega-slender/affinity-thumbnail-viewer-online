@@ -1,0 +1,133 @@
+body {
+    background: linear-gradient(135deg, #FC466B, #3F5EFB);
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: #E0E0E0;
+}
+
+.container {
+    background-color: #1E1E1E;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    max-width: 550px;
+    width: 100%;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+label {
+    background-color: #3B3B3B;
+    color: #E0E0E0;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+label:hover {
+    background-color: #575757;
+}
+
+#output {
+    margin-top: 20px;
+}
+
+#output img {
+    max-width: 1000px;
+    max-height: 350px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+#downloadBtn {
+    background: linear-gradient(135deg, #4CAF50, #009688);
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none;
+    margin-top: 10px;
+    text-decoration: none;
+    background-size: 200% 200%;
+}
+
+#downloadBtn:hover,
+#downloadBtn:active {
+    background: linear-gradient(135deg, #54d058, #00baa8);
+}
+
+.credits {
+    font-size: 12px;
+    color: #E0E0E0;
+    margin-top: 20px;
+}
+
+.credits a {
+    color: #E0E0E0;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.credits a:hover {
+    color: #FFFFFF;
+}
+
+.credits strong {
+    font-weight: bold;
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding: 20px;
+        border-radius: 10px;
+    }
+
+    h1 {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+
+    label {
+        padding: 10px 15px;
+    }
+
+    #downloadBtn {
+        padding: 10px 15px;
+    }
+}
+
+@media (max-width: 400px) {
+    .container {
+        padding: 15px;
+        border-radius: 8px;
+    }
+
+    h1 {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    label {
+        padding: 8px 10px;
+    }
+
+    #downloadBtn {
+        padding: 8px 10px;
+    }
+}

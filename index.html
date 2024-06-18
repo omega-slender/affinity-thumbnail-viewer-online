@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Affinity Thumbnail Viewer - View and Download Thumbnails</title>
+    <meta name="description" content="Affinity Thumbnail Viewer is a tool for viewing and downloading thumbnails from .afphoto and .afdesign files.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="images/icon.png" type="image/png">
+</head>
+<body>
+    <div class="container">
+        <h1>AFFINITY THUMBNAIL VIEWER</h1>
+        <input type="file" id="fileInput" accept=".afphoto,.afdesign">
+        <label for="fileInput">Choose a file</label>
+        <div id="output"></div>
+        <a id="downloadBtn" download="">Download Image</a>
+        <div class="credits">Page created by <strong><a href="https://linktr.ee/omega_slender" target="_blank" rel="noopener">Omega Slender</a></strong>, based on the work of <strong><a href="https://forum.affinity.serif.com/index.php?/topic/180457-afthumbs-extracting-png-thumbnails-from-afphoto-and-afdesign-files/" target="_blank" rel="noopener">v_kyr</a></strong></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

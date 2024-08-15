@@ -92,6 +92,20 @@ label:hover {
     font-weight: bold;
 }
 
+#dropZone {
+    border: 2px dashed #575757;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+    color: #E0E0E0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#dropZone:hover {
+    background-color: #3B3B3B;
+}
+
 @media (max-width: 600px) {
     .container {
         padding: 20px;

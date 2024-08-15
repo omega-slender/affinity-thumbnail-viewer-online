@@ -1,14 +1,26 @@
-document.getElementById('fileInput').addEventListener('change', () => {
-    const fileInput = document.getElementById('fileInput');
+document.getElementById('fileInput').addEventListener('change', handleFileSelect);
+document.getElementById('dropZone').addEventListener('dragover', handleDragOver);
+document.getElementById('dropZone').addEventListener('drop', handleFileDrop);
+
+function handleFileSelect(event) {
+    const fileInput = event.target;
+    processFile(fileInput.files[0]);
+}
+
+function handleDragOver(event) {
+    event.preventDefault();
+    event.dataTransfer.dropEffect = 'copy';
+}
+
+function handleFileDrop(event) {
+    event.preventDefault();
+    const file = event.dataTransfer.files[0];
+    processFile(file);
+}
+
+function processFile(file) {
     const output = document.getElementById('output');
     const downloadBtn = document.getElementById('downloadBtn');
-
-    if (fileInput.files.length === 0) {
-        alert('Please select a file.');
-        return;
-    }
-
-    const file = fileInput.files[0];
 
     if (!file.name.match(/\.(afphoto|afdesign)$/i)) {
         alert('Please select a .afphoto or .afdesign file.');
@@ -40,7 +52,7 @@ document.getElementById('fileInput').addEventListener('change', () => {
         }
     };
     reader.readAsArrayBuffer(file);
-});
+}
 
 function extractPngs(binaryData) {
     const images = [];

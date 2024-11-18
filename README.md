@@ -1,5 +1,5 @@
 # Affinity Thumbnail Viewer Online 🖼️
-**Affinity Thumbnail Viewer Online** is an intuitive and efficient tool designed by **Omega Slender**, enabling users to process '.afphoto' and '.afdesign' files to view their thumbnails and download them as .png files easily and quickly. This project is inspired by the Python code created by **v_kyr** and uses modern web technologies such as HTML, CSS, and JavaScript to provide a smooth and accessible user experience.
+**Affinity Thumbnail Viewer Online** is an intuitive and efficient tool designed, enabling users to process '.afphoto' and '.afdesign' files to view their thumbnails and download them as .png files easily and quickly. This project is inspired by the Python code created by **v_kyr** and uses modern web technologies such as HTML, CSS, and JavaScript to provide a smooth and accessible user experience.
 
 ## Features ✨
 - Fast processing of '.afphoto' and '.afdesign' files.
@@ -15,5 +15,5 @@
 ## Credits and Acknowledgements 💖
 This project was made possible thanks to the original work by **v_kyr**, who developed the [Python code](https://forum.affinity.serif.com/index.php?/topic/180457-afthumbs-extracting-png-thumbnails-from-afphoto-and-afdesign-files/) that serves as the foundation for this tool.
 
-## Connect with Omega Slender 🌐
+## Contact with Omega Slender 🌐
 To learn more about me and my projects, visit my [Linktree](https://linktr.ee/omega_slender).

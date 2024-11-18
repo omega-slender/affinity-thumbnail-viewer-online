@@ -15,5 +15,5 @@
 ## Credits and Acknowledgements 💖
 This project was made possible thanks to the work by **v_kyr**, who developed the [Python code](https://forum.affinity.serif.com/index.php?/topic/180457-afthumbs-extracting-png-thumbnails-from-afphoto-and-afdesign-files/) that serves as the foundation for this tool.
 
-## Contact with Omega Slender 🌐
+## Contact 🌐
 To learn more about me and my projects, visit my [Linktree](https://linktr.ee/omega_slender).
